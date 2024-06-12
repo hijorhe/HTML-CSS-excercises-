@@ -1,0 +1,30 @@
+body{
+    border: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-button{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    border-bottom: 2px solid rgb(33, 171, 125);
+    cursor: pointer;
+    transition: background-color .4s;
+    transition: box-shadow .4s;
+    transition: transform .4s;
+    transform: color .4s;
+}
+
+.btn-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px black;
+    background-color: burlywood;
+    color: black;
+}
